@@ -73,17 +73,22 @@ cursor: default;
 
 
 }
+/* Menu escondido por padrão */
 .nav-responsive {
     display: none;
-    position: none;
+    position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    padding: 1rem;
     background-color: var(--bg-color-01);
-
-
+    z-index: 1000;
 }
+
+/* Mostra o menu quando a classe 'visible' é adicionada */
+.nav-responsive.visible {
+    display: block;
+}
+
 
 .nav a, .nav-responsive a{
 font-size: 1.2rem;
