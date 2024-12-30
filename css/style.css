@@ -46,6 +46,18 @@ font-size: 16px;
 body {
 background-color: var(--bg-color-01);
 color: var(--text-color);
+font-size: 1rem; 
+}
+h1 {
+    font-size: 3rem; /* Ajustável a partir do tamanho base */
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.1rem;
 }
 
 header {
@@ -646,6 +658,18 @@ border: solid 0.2rem var(--main-color);
 
 @media (min-width: 768px){
 
+    body {
+        font-size: 0.9rem; /* Reduz a fonte em telas menores */
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
 .menu-hamburguer {
 
     display: none;
@@ -733,6 +757,19 @@ form .input-box input {
     /* Extra large  (XG): Desktop  */
 
 @media (min-width: 1200px){
+
+    body {
+        font-size: 1.2rem; /* Aumenta a fonte em telas grandes */
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+}
 
     .home-img, .about-img {
         max-width: 25%;
